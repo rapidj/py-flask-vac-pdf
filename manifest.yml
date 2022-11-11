@@ -1,0 +1,7 @@
+---
+applications:
+- name: py-flask-vac-app
+  path: ./
+  memory: 128M
+  buildpack: python_buildpack
+  command: python py-flask-vac-app.py
