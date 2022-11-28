@@ -1,2 +1,2 @@
 # py-flask-vac-pdf
-The microservice for pdf file creation from JSON data
+The microservice for pdf file creation using fpdf
