@@ -1,9 +1,10 @@
 import os
-from flask import Flask, render_template, request, url_for, flash, redirect, make_response
+from flask import Flask, make_response
+#from flask import render_template, request, url_for, flash, redirect, 
 #from flask import jsonify
-import json
-import requests
-import operator
+#import json
+#import requests
+#import operator
 from fpdf import FPDF
 
 
@@ -87,5 +88,5 @@ def pdf_gen():
     return response
 
 if __name__ == '__main__':
-    #app.run(host='0.0.0.0', port=port)
-    app.run(host='localhost', port=port)
+    app.run(host='0.0.0.0', port=port)
+    #app.run(host='localhost', port=port)
